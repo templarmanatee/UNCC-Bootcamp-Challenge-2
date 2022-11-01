@@ -1,4 +1,85 @@
-/*
-    Placeholder file
-    
-*/
+h1 {
+    margin: 1rem; 
+    color: white; 
+}
+
+h2 {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+header {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   background-image: linear-gradient(rgba(131, 204, 202, 0.5), rgba(13, 74, 82, 0.5));
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    float: right; 
+    padding: 1.5rem;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(#);
+  
+    /* Set a specific height */
+    height: 25%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero-text {
+    text-align: end;
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards, article p {
+    margin-left: 1rem;
+}
+
+.card-holder {
+    border-left: 5px dotted aqua;
+    display: flex;
+    position: absolute;
+    left: 10%;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+
+.cards {
+    padding: 1.5rem;
+    flex: 1 0 25%; 
+}
+
+.cards .top-image {
+    height: 400px; 
+    width: 80vw;
+    background-color: gray;
+}
+
+.cards .image {
+    height: 80px;
+    width: 20vw; 
+    background-color: gray;
+}
