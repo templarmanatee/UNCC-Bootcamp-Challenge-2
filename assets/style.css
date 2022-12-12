@@ -54,21 +54,22 @@ article {
     flex-direction: row;
 }
 
-.cards, article p {
-    margin-left: 1rem;
+.section-header {
+    height: 100%; 
+    width: 15vw; 
+    border-right: 2vw dotted aqua; 
+    justify-self: right;
 }
 
 .card-holder {
-    border-left: 5px dotted aqua;
     display: flex;
-    position: absolute;
-    left: 10%;
     flex-wrap: wrap; 
+    flex-direction: row; 
     width: 100%;
 }
 
 .cards {
-    padding: 1.5rem;
+    padding: 1.2rem;
     flex: 1 0 25%; 
 }
 
@@ -78,8 +79,8 @@ article {
     background-color: gray;
 }
 
-.cards .image {
+.cards .card-image {
     height: 80px;
-    width: 20vw; 
+    width: 30vw; 
     background-color: gray;
 }
