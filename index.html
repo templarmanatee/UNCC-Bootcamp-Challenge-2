@@ -6,72 +6,69 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="assets\reset.css"> -->
-        <link rel="stylesheet" href="assets\style.css">
+        <link rel="stylesheet" href="assets\css\normalize.css">
+        <link rel="stylesheet" href="assets\css\skeleton.css">
+        <link rel="stylesheet" href="assets\css\style.css">
     </head>
     <body>
-        <header>
-            <h1>
-                Dylan Freeman
-            </h1>
-            <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
-                </ul>
-            </nav>
+        <header class="container u-max-full-width" id="navbar">
+            <div class="row ten column">
+                <h1 class="one-half column" id="title">
+                    Dylan Freeman
+                </h1>
+                <input class="nav-button button two columns" value="About Me"></input>
+                <input class="nav-button button two columns" value="My Works"></input>
+                <input class="nav-button button two columns" value="My Links"></input>
+            </div>
         </header>
 
-        <div class="hero-image">
-            <div class="hero-text">
-              <h2>Hero Image</h>
-            </div>
-        </div>
-
-        <main>
+        <main class="container">
             <!-- About Me -->
-            <section id="about-me">
-                <h2 id="about-me-header" class="section-header">About Me</h2>
-                <p id="about-me-text">Hi I'm Dylan. This is sample text</p>
-                <img src="#"></img> 
-            </section>
+            <div class="row three columns">
+                <section id="about-me">
+                    <h2 id="about-me-header" class="u-full-width">About Me</h2>
+                    <p id="about-me-text">Hi I'm Dylan. This is sample text</p>
+                    <img src="#"></img> 
+                </section>
+            </div>
 
-            <section id="my-work">
-                <h2 class="section-header">My Work</h2>
+            <div class="row six columns">
+                <section id="my-work">
+                    <h2 class="section-header">My Work</h2>
 
-                <!-- Project Cards -->
-                <div class="card-holder">
-                    <!-- Project Div Header -->
-                    <!-- Project 1 / Top Card -->
-                    <section class="cards top-card">
-                        <div class="top-image"></div>
-                    </section>
-    
-                    <!-- Project 2 Card -->
-                    <section class="cards">
-                        <div class="card-image"></div>
-                    </section>
-    
-                    <!-- Project 3 Card -->
-                    <section class="cards">
-                        <div class="card-image"></div>
-                        <p class="caption"></p>
-                    </section>
-    
-                    <!-- Project 4 Card -->
-                    <section class="cards">
-                        <div class="card-image"></div>
-                        <p class="caption"></p>
-                    </section>
-    
-                    <!-- Project 5 Card -->
-                    <section class="cards">
-                        <div class="card-image"></div>
-                        <p class="caption"></p>
-                    </section>
-                </div>
-            </section>
+                    <!-- Project Cards -->
+                    <div class="card-holder">
+                        <!-- Project Div Header -->
+                        <!-- Project 1 / Top Card -->
+                        <section class="cards top-card">
+                            <div class="top-image"></div>
+                        </section>
+
+                        <!-- Project 2 Card -->
+                        <section class="cards">
+                            <div class="card-image"></div>
+                        </section>
+
+                        <!-- Project 3 Card -->
+                        <section class="cards">
+                            <div class="card-image"></div>
+                            <p class="caption"></p>
+                        </section>
+
+                        <!-- Project 4 Card -->
+                        <section class="cards">
+                            <div class="card-image"></div>
+                            <p class="caption"></p>
+                        </section>
+
+                        <!-- Project 5 Card -->
+                        <section class="cards">
+                            <div class="card-image"></div>
+                            <p class="caption"></p>
+                        </section>
+                    </div>
+                </section>
+            </div>
             
 
             <!-- Contact Me -->

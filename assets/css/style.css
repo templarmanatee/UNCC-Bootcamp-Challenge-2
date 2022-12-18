@@ -1,0 +1,26 @@
+#navbar {
+    padding-top: 160px;
+    padding-bottom: 120px;
+    margin: 0px;
+    width: 100%;
+
+    background-image: url("/assets/images/IMG_7326.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#title {
+    color: white; 
+    text-shadow: 2px 2px -5px #000000; 
+    margin: 5rem;
+}
+
+.nav-button {
+    color: white;
+    text-shadow: 2px 2px 20px #000000; 
+    background-color: slategrey;
+    margin: 2rem;
+}
